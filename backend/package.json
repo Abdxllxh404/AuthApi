@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node-dev --respawn src/index.ts",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "serve": "nodemon"
   },
   "dependencies": {
     "@types/jest": "^29.5.12",
