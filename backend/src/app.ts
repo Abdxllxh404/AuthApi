@@ -30,7 +30,7 @@ app.use('/api/auth', apiLimiter, authRouter);
 sequelize
   .sync()
   .then(() => {
-    console.log('Database connected');
+    console.log('Database connected sucessfully');
   })
   .catch((err) => console.log(err));
 
