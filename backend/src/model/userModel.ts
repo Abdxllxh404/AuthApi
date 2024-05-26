@@ -12,9 +12,20 @@ interface UserAttributes {
   resetTokenExpiry: Date | null;
 }
 
-interface UserCreationAttributes extends Optional<UserAttributes, 'id' | 'isVerified' | 'verificationToken' | 'resetToken' | 'resetTokenExpiry'> {}
+interface UserCreationAttributes
+  extends Optional<
+    UserAttributes,
+    | 'id'
+    | 'isVerified'
+    | 'verificationToken'
+    | 'resetToken'
+    | 'resetTokenExpiry'
+  > {}
 
-class User extends Model<UserAttributes, UserCreationAttributes> implements UserAttributes {
+class User
+  extends Model<UserAttributes, UserCreationAttributes>
+  implements UserAttributes
+{
   public id!: number;
   public username!: string;
   public email!: string;

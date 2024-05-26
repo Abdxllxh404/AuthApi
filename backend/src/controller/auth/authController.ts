@@ -31,7 +31,12 @@ export const register = async (req: Request, res: Response) => {
 
     res.status(201).json(user);
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    if (error instanceof Error) {
+      res.status(400).json({ error: error.message });
+    } else {
+      // Handle the case where the error is not an instance of Error
+      res.status(400).json({ error: 'An unknown error occurred' });
+    }
   }
 
   return;
@@ -52,10 +57,14 @@ export const login = async (req: Request, res: Response) => {
 
     res.status(200).json({ token });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    if (error instanceof Error) {
+      res.status(400).json({ error: error.message });
+    } else {
+      // Handle the case where the error is not an instance of Error
+      res.status(400).json({ error: 'An unknown error occurred' });
+    }
   }
   return;
-
 };
 
 export const verify = async (req: Request, res: Response) => {
@@ -73,10 +82,14 @@ export const verify = async (req: Request, res: Response) => {
 
     res.status(200).json(user);
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    if (error instanceof Error) {
+      res.status(400).json({ error: error.message });
+    } else {
+      // Handle the case where the error is not an instance of Error
+      res.status(400).json({ error: 'An unknown error occurred' });
+    }
   }
   return;
-
 };
 
 export const requestResetPassword = async (req: Request, res: Response) => {
@@ -89,10 +102,14 @@ export const requestResetPassword = async (req: Request, res: Response) => {
     await requestPasswordReset(email);
     res.status(200).json({ message: 'Password reset email sent' });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    if (error instanceof Error) {
+      res.status(400).json({ error: error.message });
+    } else {
+      // Handle the case where the error is not an instance of Error
+      res.status(400).json({ error: 'An unknown error occurred' });
+    }
   }
   return;
-
 };
 
 export const resetUserPassword = async (req: Request, res: Response) => {
@@ -105,8 +122,12 @@ export const resetUserPassword = async (req: Request, res: Response) => {
     await resetPassword(token, newPassword);
     res.status(200).json({ message: 'Password reset successful' });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    if (error instanceof Error) {
+      res.status(400).json({ error: error.message });
+    } else {
+      // Handle the case where the error is not an instance of Error
+      res.status(400).json({ error: 'An unknown error occurred' });
+    }
   }
   return;
-
 };
