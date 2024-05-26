@@ -1,12 +1,13 @@
 {
   "name": "auth-api-backend",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "type": "module",
+  "main": "src/index.js",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc",
-    "start": "node --loader ts-node/esm src/index.ts",
-    "dev": "nodemon"
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon",
+    "serve": "nodemon"
   },
   "dependencies": {
     "@types/jest": "^29.5.12",

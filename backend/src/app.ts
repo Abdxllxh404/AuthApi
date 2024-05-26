@@ -1,9 +1,8 @@
-import express from 'express';
+import express, { Express, Request, Response } from 'express';
 import bodyParser from 'body-parser';
 import { sequelize } from './config/database';
 import rateLimit from 'express-rate-limit';
 import authRouter from './routes/auth/authRouter';
-import { config } from './environments/environment';
 import helmet from 'helmet';
 import cors from 'cors';
 import logger from './utils/logger';
