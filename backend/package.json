@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "ts-node-dev --respawn src/index.ts",
     "dev": "nodemon"
   },
   "dependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/morgan": "^1.9.9",
     "bcryptjs": "^2.4.3",
     "cor": "^0.0.0",
     "cors": "^2.8.5",
@@ -23,6 +25,7 @@
     "morgan": "^1.10.0",
     "mysql2": "^3.9.7",
     "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.1",
     "prettier": "^3.2.5",
     "rxjs": "~7.8.0",
     "sequelize": "^6.37.3",
@@ -34,11 +37,11 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.21",
     "@types/jasmine": "~5.1.0",
-    "@types/node": "^20.12.12",
-    "@types/bcryptjs": "^2.4.2",
     "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^20.12.12",
     "@types/nodemailer": "^6.4.0",
     "typescript": "^5.4.5"
   }
