@@ -89,7 +89,7 @@ export const verify = async (req: Request, res: Response) => {
       res.status(400).json({ error: 'An unknown error occurred' });
     }
   }
-  return;
+  return false;
 };
 
 export const requestResetPassword = async (req: Request, res: Response) => {
