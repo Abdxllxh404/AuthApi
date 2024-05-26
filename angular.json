@@ -71,9 +71,6 @@
             },
             "development": {
               "buildTarget": "AuthApi:build:development"
-            },
-            "options": {
-              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
@@ -105,8 +102,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "3cbfdb28-b218-424b-aed2-d48d0bd648e5"
   }
 }
