@@ -1,8 +1,12 @@
 import app from './app';
 import { config } from './environments/environment';
 
-const port = config.port || 3000;
+const port = config.port;
 
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+
 });
+
+
+
