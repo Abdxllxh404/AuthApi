@@ -30,7 +30,7 @@ app.use('/api/auth', apiLimiter, authRouter);
 sequelize
   .sync()
   .then(() => {
-    console.log('Database connected sucessfully');
+    console.log(`Database running at http://localhost/phpmyadmin`);
   })
   .catch((err) => console.log(err));
 

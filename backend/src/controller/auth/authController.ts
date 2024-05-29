@@ -18,10 +18,13 @@ import {
 
 export const register = async (req: Request, res: Response) => {
   try {
+    console.log(req);
+    return res.json(req);
+
     const { error: requestError } = validateRegister(req.body);
     if (requestError)
-      return res.status(400).json({ error: requestError.details[0].message });
-
+      // return res.status(400).json({ error: requestError.details[0].message });
+      return;
     const { username, email, password } = req.body;
     const user = await registerUser(username, email, password);
 
@@ -117,6 +120,7 @@ export const resetUserPassword = async (req: Request, res: Response) => {
     const { error: requestError } = validateResetPassword(req.body);
     if (requestError)
       return res.status(400).json({ error: requestError.details[0].message });
+
 
     const { token, newPassword } = req.body;
     await resetPassword(token, newPassword);
