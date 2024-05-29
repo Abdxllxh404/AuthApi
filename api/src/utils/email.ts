@@ -1,17 +1,19 @@
 import nodemailer from 'nodemailer';
 import { config } from '../environments/environment';
 
-export const sendVerificationEmail = async (email: string, token: string) => {
-  const transporter = nodemailer.createTransport({
-    service: config.emailService,
-    auth: {
-      user: config.emailUser,
-      pass: config.emailPass,
-    },
-  });
+const transporter = nodemailer.createTransport({
+  host: 'smtp-relay.sendinblue.com',
+  port: 587,
+  secure: false,
+  auth: {
+    user: 'abdulloh.mukem@gmail.com',
+    pass: 'nht2JVvSKWp8ZNc9',
+  },
+});
 
+export const sendVerificationEmail = async (email: string, token: string) => {
   const mailOptions = {
-    from: config.emailUser,
+    from: 'abdulloh.mukem@gmail.com',
     to: email,
     subject: 'Account Verification',
     text: `Please verify your account by clicking the link: \nhttp:\/\/${config.host}\/confirmation\/${token}`,
@@ -21,14 +23,6 @@ export const sendVerificationEmail = async (email: string, token: string) => {
 };
 
 export const sendResetPasswordEmail = async (email: string, token: string) => {
-  const transporter = nodemailer.createTransport({
-    service: config.emailService,
-    auth: {
-      user: config.emailUser,
-      pass: config.emailPass,
-    },
-  });
-
   const mailOptions = {
     from: config.emailUser,
     to: email,

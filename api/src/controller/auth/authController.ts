@@ -5,7 +5,7 @@ import {
   verifyEmail,
   requestPasswordReset,
   resetPassword,
-} from '../../services/auth/authService';
+} from './../../services/auth/authService';
 import {
   validateRegister,
   validateLogin,
@@ -14,17 +14,13 @@ import {
   validateResetPassword,
   validateUserResponse,
   validateTokenResponse,
-} from '../../validator/auth/authValidator';
+} from './../../validator/auth/authValidator';
 
 export const register = async (req: Request, res: Response) => {
   try {
-    console.log(req);
-    return res.json(req);
-
     const { error: requestError } = validateRegister(req.body);
     if (requestError)
-      // return res.status(400).json({ error: requestError.details[0].message });
-      return;
+      return res.status(400).json({ error: requestError.details[0].message });
     const { username, email, password } = req.body;
     const user = await registerUser(username, email, password);
 
@@ -37,7 +33,6 @@ export const register = async (req: Request, res: Response) => {
     if (error instanceof Error) {
       res.status(400).json({ error: error.message });
     } else {
-      // Handle the case where the error is not an instance of Error
       res.status(400).json({ error: 'An unknown error occurred' });
     }
   }
@@ -120,7 +115,6 @@ export const resetUserPassword = async (req: Request, res: Response) => {
     const { error: requestError } = validateResetPassword(req.body);
     if (requestError)
       return res.status(400).json({ error: requestError.details[0].message });
-
 
     const { token, newPassword } = req.body;
     await resetPassword(token, newPassword);

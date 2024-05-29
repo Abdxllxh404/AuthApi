@@ -1,35 +1,11 @@
-{"level":"info","message":"::1 - - [26/May/2024:06:39:58 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:40:28 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::ffff:127.0.0.1 - - [26/May/2024:06:40:40 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0\""}
-{"level":"info","message":"::ffff:127.0.0.1 - - [26/May/2024:06:40:41 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0\""}
-{"level":"info","message":"::ffff:127.0.0.1 - - [26/May/2024:06:40:41 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0\""}
-{"level":"info","message":"::ffff:127.0.0.1 - - [26/May/2024:06:40:42 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0\""}
-{"level":"info","message":"::ffff:127.0.0.1 - - [26/May/2024:06:40:42 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:41:57 +0000] \"GET /api/auth/register HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:42:01 +0000] \"POST /api/auth/register HTTP/1.1\" 400 36 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:42:37 +0000] \"POST /api/auth/register HTTP/1.1\" 400 36 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:43:17 +0000] \"POST /api/auth/register HTTP/1.1\" 400 1166 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:43:33 +0000] \"POST /api/auth/register HTTP/1.1\" 400 1166 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:43:52 +0000] \"POST /api/auth/register HTTP/1.1\" 400 36 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:44:26 +0000] \"POST /api/auth/register HTTP/1.1\" 400 33 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:44:49 +0000] \"POST /api/auth/register HTTP/1.1\" 400 212 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:46:15 +0000] \"POST /api/auth/register HTTP/1.1\" 400 28 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:46:53 +0000] \"POST /api/auth/register HTTP/1.1\" 400 28 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:47:05 +0000] \"POST /api/auth/register HTTP/1.1\" 400 28 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:48:16 +0000] \"POST /api/auth/register HTTP/1.1\" 400 28 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:48:17 +0000] \"POST /api/auth/register HTTP/1.1\" 400 28 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:48:18 +0000] \"POST /api/auth/register HTTP/1.1\" 400 28 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:49:09 +0000] \"POST /api/auth/register HTTP/1.1\" 400 28 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:50:19 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:52:20 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [26/May/2024:06:52:21 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:10:44 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:11:15 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:11:54 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:11:56 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:11:57 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:11:58 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:11:59 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:11:59 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:12:00 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
-{"level":"info","message":"::1 - - [29/May/2024:13:12:10 +0000] \"POST /api/auth/register HTTP/1.1\" 400 217 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:10:46 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:12:23 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:13:33 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:18:33 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:18:34 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:19:25 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:19:26 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:19:27 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:19:55 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:21:07 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}
+{"level":"info","message":"::1 - - [29/May/2024:14:21:10 +0000] \"POST /api/auth/register HTTP/1.1\" 400 40 \"-\" \"PostmanRuntime/7.36.3\""}

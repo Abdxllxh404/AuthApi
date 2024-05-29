@@ -1417,6 +1417,11 @@ negotiator@0.6.3:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
+nodemailer-sendinblue-transport@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/nodemailer-sendinblue-transport/-/nodemailer-sendinblue-transport-2.0.1.tgz#10cf8aa9e3954e435f565ad736fdce59d29f8290"
+  integrity sha512-AtkLImrKkiks8ukP5JKd98U9mkumlg054deLrJ8O2KMVr9tcxcAybrZjNHhc4PfPl36SQkLtxXKOti0jJCHPgg==
+
 nodemailer@^6.9.13:
   version "6.9.13"
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.13.tgz#5b292bf1e92645f4852ca872c56a6ba6c4a3d3d6"
